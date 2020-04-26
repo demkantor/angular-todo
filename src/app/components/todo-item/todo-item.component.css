@@ -1,0 +1,9 @@
+.todo {
+    background-color: var(--bg-primary);
+    padding: 10px;
+    border-bottom: 1px var(--bg-secondary) dotted;
+  }
+  
+  .is-complete {
+    text-decoration: line-through;
+  }
