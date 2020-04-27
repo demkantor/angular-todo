@@ -7,3 +7,18 @@
   .is-complete {
     text-decoration: line-through;
   }
+
+  .container {
+    width: 80vw;
+    margin-left: 10vw;
+    border-radius: 1em;
+  }
+
+  .item > .button-del {
+    float: right;
+    margin-right: 2em;
+  }
+
+  .item {
+    height: 5vh;
+  }
