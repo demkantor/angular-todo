@@ -1,10 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
-* {
+  * {
     margin:0;
     padding: 0;
-}
+  }
 
-:root {
+  :root {
     font-size: 16px;
     font-family: 'Trebuchet MS', 'Open Sans';
     --pure-white: #FCFCFC;
@@ -18,9 +18,13 @@
     --transition-ease: 400ms ease-in-out;
   }
 
-a {
-    color: var(--text-primary);
+  a {
+    color: var(--text-tertiary);
     text-decoration: none;
+  }
+
+  a:hover, a:active {
+    color: var(--text-secondary);
   }
   
   .container {
@@ -39,6 +43,7 @@ a {
   
   .button:hover {
     background-color: var(--bg-secondary);
+    color: var(--text-tertiary);
     transform: scale(1.1);
     transition: var(--transition-speed);
   }

@@ -1,0 +1,61 @@
+.form {
+    max-width:40vw;
+    margin: auto;
+    margin-top: 1em;
+    background: var(--pure-white);
+    border-radius: .3em;
+  }
+
+  .form li{
+    text-decoration: none;
+    list-style: none;
+    padding: .7em;
+    border: .2em solid var(--bg-primary);
+    margin-bottom: 1em;
+    border-radius: .2em;
+    transition: var(--transition-speed);
+  }
+  
+  .form li:hover{
+    border-color: var(--bg-secondary);
+    transition: var(--transition-speed);
+  }
+
+  .form li > label {
+    display: block;
+    float: left;
+    margin-top: -1.6em;
+    background: var(--pure-white);
+    height: 1em;
+    padding: .1em .2em .1em .2em;
+    color: var(--text-secondary);
+    font-size: smaller;
+    overflow: hidden;
+  }
+  
+  .form li > span{
+    background: linear-gradient(var(--text-tertiary), var(--bg-primary));
+    display: block;
+    padding: .3em;
+    margin: 0 -1.1em -1.2em -1.1em;
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: x-small;
+  }
+  
+  .form li > .button{
+    float: right;
+  }
+
+  input[type=text] {
+    width: 65%;
+    border: .2em solid var(--bg-primary);
+    border-radius: .4em;
+    line-height: 1.5;
+    transition: var(--transition-speed);
+  }
+  
+  input[type=text]:focus {
+    border: .2em solid var(--bg-tertiary);
+    transition: var(--transition-speed);
+  }
